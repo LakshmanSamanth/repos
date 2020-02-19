@@ -1,0 +1,49 @@
+﻿@model List<HarshavardhanEntityFrameworkDB.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPageDB.cshtml";
+}
+
+<h2>Index</h2>
+
+<a href="/Products/Create">Create</a>
+
+<form class="form-inline" action="/Products/Index">
+    <label for="search">Search </label>
+    <input type="search" class="form-control" id="search" name="search" placeholder="Search" value="@ViewBag.Search" />
+    <button type="submit" class="btn btn-primary">Go</button>
+</form>
+
+<div class="row">
+
+</div>
+
+<table class="table">
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Date Of Purchase</th>
+        <th>Availability status</th>
+        <th>Category Id</th>
+        <th>Brand Id</th>
+        <th>Active</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.ProductID</td>
+        <td>@item.ProductName</td>
+        <td>@item.Price.Value.ToString("C")</td>
+        <td>@item.DateOfPurchase.Value.ToString("dd/MM/yyyy")</td>
+        <td>@item.AvailabilityStatus</td>
+        <td>@item.CategoryID</td>
+        <td>@item.BrandID</td>
+        <td>@item.Active</td>
+        <td>
+            <a href="/Products/Details/@item.ProductID">Details</a>
+        </td>
+    </tr>
+    }
+</table>

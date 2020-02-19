@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarshaVardhanMVCPractice", "HarshaVardhanMVCPractice\HarshaVardhanMVCPractice.csproj", "{E1481A86-0867-45A3-AF84-EDB782F44FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayOutPageExample", "LayOutPageExample\LayOutPageExample.csproj", "{709200BA-BF00-4922-AA94-6E8FA288AA1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1481A86-0867-45A3-AF84-EDB782F44FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1481A86-0867-45A3-AF84-EDB782F44FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1481A86-0867-45A3-AF84-EDB782F44FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1481A86-0867-45A3-AF84-EDB782F44FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709200BA-BF00-4922-AA94-6E8FA288AA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709200BA-BF00-4922-AA94-6E8FA288AA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709200BA-BF00-4922-AA94-6E8FA288AA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709200BA-BF00-4922-AA94-6E8FA288AA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8806CE24-4C01-4992-AB19-E9AF8604F5B1}
+	EndGlobalSection
+EndGlobal

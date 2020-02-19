@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityTutorialTekTutorialsHub", "IdentityTutorialTekTutorialsHub\IdentityTutorialTekTutorialsHub.csproj", "{DCA8025C-0CFE-4D4A-86B9-563462B4DD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityTwo", "IdentityTwo\IdentityTwo.csproj", "{49931CB5-1AED-468E-AE9E-22F32178DB50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA8025C-0CFE-4D4A-86B9-563462B4DD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA8025C-0CFE-4D4A-86B9-563462B4DD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA8025C-0CFE-4D4A-86B9-563462B4DD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA8025C-0CFE-4D4A-86B9-563462B4DD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49931CB5-1AED-468E-AE9E-22F32178DB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49931CB5-1AED-468E-AE9E-22F32178DB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49931CB5-1AED-468E-AE9E-22F32178DB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49931CB5-1AED-468E-AE9E-22F32178DB50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3321C060-B29D-4DA9-B388-B99770CE4250}
+	EndGlobalSection
+EndGlobal

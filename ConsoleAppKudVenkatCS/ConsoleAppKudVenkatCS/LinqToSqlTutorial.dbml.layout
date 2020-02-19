@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqToSqlTutorial">
+  <DataContextMoniker Name="/LinqToSqlTutorialDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9783b274-d156-44b7-b84f-dd561234147f" absoluteBounds="1.375, 1.875, 2, 4.2708154296875">
+      <DataClassMoniker Name="/LinqToSqlTutorialDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc3aec63-cb6c-449f-8196-571f0e60c951" absoluteBounds="1.3900000000000001, 2.335, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.08423076923077 : 6.1458154296875); (2.08423076923077 : 6.3958154296875); (2.67961538461538 : 6.3958154296875); (2.67961538461538 : 6.1458154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqToSqlTutorialDataContext/Employee/Employee_Employee" />
+      <nodes>
+        <classShapeMoniker Id="9783b274-d156-44b7-b84f-dd561234147f" />
+        <classShapeMoniker Id="9783b274-d156-44b7-b84f-dd561234147f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

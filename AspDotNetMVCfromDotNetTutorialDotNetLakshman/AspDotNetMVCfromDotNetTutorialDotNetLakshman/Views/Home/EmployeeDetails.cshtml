@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "EmployeeDetails";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Page Title</title>
+</head>
+
+<body>
+    @{
+        var employee = ViewBag.Employee;
+    }
+    <h2>@ViewBag.Header</h2>
+    <table style="font-family:Arial">
+        <tr>
+            <td>Employee ID:</td>
+            <td>@employee.EmployeeId </td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>@employee.Name</td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>@employee.Gender</td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td>@employee.City</td>
+        </tr>
+        <tr>
+            <td>Salary:</td>
+            <td>@employee.Salary</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>@employee.Addresss</td>
+        </tr>
+    </table>
+</body>
+</html>
+

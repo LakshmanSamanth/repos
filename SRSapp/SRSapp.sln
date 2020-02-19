@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRSapp", "SRSapp\SRSapp.csproj", "{BFE40638-450C-46D2-8CB0-62A116478079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE40638-450C-46D2-8CB0-62A116478079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE40638-450C-46D2-8CB0-62A116478079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE40638-450C-46D2-8CB0-62A116478079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE40638-450C-46D2-8CB0-62A116478079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CE7A1BE-8E4F-4990-8F14-4613AC3F52C1}
+	EndGlobalSection
+EndGlobal

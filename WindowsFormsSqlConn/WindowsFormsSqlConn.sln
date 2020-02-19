@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsSqlConn", "WindowsFormsSqlConn\WindowsFormsSqlConn.csproj", "{BABD4AAB-EB72-4A74-9D66-12E1C4E7965B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSQLCONNECTION", "MVCSQLCONNECTION\MVCSQLCONNECTION.csproj", "{D2B3B7FA-7FC2-429F-BA49-4761E86D339A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABD4AAB-EB72-4A74-9D66-12E1C4E7965B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABD4AAB-EB72-4A74-9D66-12E1C4E7965B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABD4AAB-EB72-4A74-9D66-12E1C4E7965B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABD4AAB-EB72-4A74-9D66-12E1C4E7965B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B3B7FA-7FC2-429F-BA49-4761E86D339A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B3B7FA-7FC2-429F-BA49-4761E86D339A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B3B7FA-7FC2-429F-BA49-4761E86D339A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B3B7FA-7FC2-429F-BA49-4761E86D339A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CF604F4-3834-4F5A-9DFB-5E30AB9B64C8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <h1>@Model.PageHeader</h1>
+    <div>
+        StudentId : @Model.Student.StudentId
+    </div>
+    <div>
+        Name : @Model.Student.Name
+    </div>
+    <div>
+        Gender : @Model.Student.Gender
+    </div>
+    <div>
+        Department : @Model.Student.Department
+    </div>
+    <div>
+        Salary : @Model.Student.Salary
+    </div>
+    <h1>Student Address</h1>
+    <div>
+        City : @Model.Address.City
+    </div>
+    <div>
+        State : @Model.Address.State
+    </div>
+    <div>
+        Country : @Model.Address.Country
+    </div>
+    <div>
+        Pin : @Model.Address.Pin
+    </div>
+</body>
+
+</html>
